@@ -1,0 +1,23 @@
+<project>
+    <documents></documents>
+    <dmdesigns>
+        <dmdesign active>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="#007bff"/>
+                <dmcolor key="secondary" color="#526579"/>
+                <dmcolor key="info" color="#00c8f8"/>
+                <dmcolor key="success" color="#008c95"/>
+                <dmcolor key="warning" color="#ffb547"/>
+                <dmcolor key="danger" color="#d94b55"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="#dce6ef"/>
+                <dmcolor key="dark" color="#101d33"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" text_family="Inter"></dmdesignskill>
+            <dmdesignskill skill="headings"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true" advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0"></dmdesignskill>
+            <dmdesignskill skill="bootstrap" shadows="0" buttonRoundness="2" roundness="2"></dmdesignskill>
+        </dmdesign>
+    </dmdesigns>
+    <dmlocked bs5-colors-primary="true" bs5-colors-secondary="true" bs5-colors-info="true" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="true" bs5-colors-light="true" bs5-colors-dark="true"></dmlocked>
+</project>

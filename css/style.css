@@ -1,0 +1,47 @@
+body {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+/* ========================================= */
+/* FOOTER INFORMATION */
+/* ========================================= */
+
+/* Footer text container */
+.footer-info {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+/* Footer paragraphs */
+.footer-info p {
+    margin-bottom: 8px;
+    color: inherit;
+}
+
+/* Footer links */
+.footer-info a,
+.footer-info a:visited {
+    color: inherit !important;
+    text-decoration: none;
+}
+
+/* Footer links on hover */
+.footer-info a:hover {
+    color: white !important;
+}
